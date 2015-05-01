@@ -11,7 +11,7 @@ var list: number[] = [1, 2, 3];
 var list2: Array<number> = [1, 2, 3];
 
 // Enum
-enum Color {Red = 1, Green = 2, Blue = 3};
+enum Color { Red = 1, Green = 2, Blue = 3 };
 var c: Color = Color.Red;
 console.log(Color[2]);
 
