@@ -1,0 +1,5 @@
+{
+    "selector": "source.ts",
+    "cmd": ["tsc.cmd", "--target", "es5", "--module", "commonjs", "--sourceMap", "$file"],
+    "file_regex": "^(.+?) \\((\\d+),(\\d+)\\): (.+)$"
+}
