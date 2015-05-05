@@ -1,7 +1,41 @@
 {
-  "compilerOptions" : {
-    "target": "ES5",
-    "module": "commonjs",
-    "sourceMap": true
-  }
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/BasicTypes/basic_types.ts",
+        "./src/Classes/classes.ts",
+        "./src/EqualExternalModuleSample/LettersOnlyValidator.ts",
+        "./src/EqualExternalModuleSample/Test.ts",
+        "./src/EqualExternalModuleSample/Validation.ts",
+        "./src/EqualExternalModuleSample/ZipCodeValidator.ts",
+        "./src/ExternalModuleSample/LettersOnlyValidator.ts",
+        "./src/ExternalModuleSample/Test.ts",
+        "./src/ExternalModuleSample/Validation.ts",
+        "./src/ExternalModuleSample/ZipCodeValidator.ts",
+        "./src/Functions/Functions.ts",
+        "./src/Generics/generics.ts",
+        "./src/Interfaces/interfaces.ts",
+        "./src/Mixin/mixins.ts",
+        "./src/Modules/alias.ts",
+        "./src/Modules/modules.ts",
+        "./src/ModulesSample/LettersOnlyValidator.ts",
+        "./src/ModulesSample/Test.ts",
+        "./src/ModulesSample/Validation.ts",
+        "./src/ModulesSample/ZipCodeValidator.ts",
+        "./src/SampleNodejs/node_sample.ts",
+        "./typings/node/node.d.ts",
+        "./typings/tsd.d.ts"
+    ]
 }
