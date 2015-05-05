@@ -53,19 +53,19 @@ class ZooKeeper {
   nametag: string;
 }
 
-class Animal {
+class Animal2 {
   numLegs: number;
 }
 
-class Bee extends Animal {
+class Bee extends Animal2 {
   keeper: BeeKeeper;
 }
 
-class Lion extends Animal {
+class Lion extends Animal2 {
   keeper: ZooKeeper;
 }
 
-function findKeeper<A extends Animal, K> (a: {new(): A;
+function findKeeper<A extends Animal2, K> (a: {new(): A;
   prototype: {keeper: K}}): K {
 
   return a.prototype.keeper;
